@@ -1,0 +1,9 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '8.0'
+
+target 'SGOtherLoginAndShare' do
+	pod 'mob_sharesdk/ShareSDKPlatforms/QQ'
+	pod 'mob_sharesdk/ShareSDKPlatforms/SinaWeibo'
+ 	pod 'mob_sharesdk/ShareSDKPlatforms/WeChatFull'
+
+end

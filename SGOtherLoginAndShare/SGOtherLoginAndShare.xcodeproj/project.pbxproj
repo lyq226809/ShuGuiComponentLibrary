@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FE4E521F72D1B9122E26BBF /* libPods-SGOtherLoginAndShare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDD578220C4825AB253EFA9 /* libPods-SGOtherLoginAndShare.a */; };
+		5A355C54212D18BF000E94B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A355C53212D18BF000E94B8 /* AppDelegate.m */; };
+		5A355C57212D18BF000E94B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A355C56212D18BF000E94B8 /* ViewController.m */; };
+		5A355C5A212D18BF000E94B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A355C58212D18BF000E94B8 /* Main.storyboard */; };
+		5A355C5C212D18C0000E94B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A355C5B212D18C0000E94B8 /* Assets.xcassets */; };
+		5A355C5F212D18C0000E94B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A355C5D212D18C0000E94B8 /* LaunchScreen.storyboard */; };
+		5A355C62212D18C1000E94B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A355C61212D18C1000E94B8 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A355C4F212D18BF000E94B8 /* SGOtherLoginAndShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGOtherLoginAndShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A355C52212D18BF000E94B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A355C53212D18BF000E94B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A355C55212D18BF000E94B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5A355C56212D18BF000E94B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5A355C59212D18BF000E94B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A355C5B212D18C0000E94B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A355C5E212D18C0000E94B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A355C60212D18C1000E94B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A355C61212D18C1000E94B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9A6871A55B2729470496DCB /* Pods-SGOtherLoginAndShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGOtherLoginAndShare.release.xcconfig"; path = "Pods/Target Support Files/Pods-SGOtherLoginAndShare/Pods-SGOtherLoginAndShare.release.xcconfig"; sourceTree = "<group>"; };
+		EDDD578220C4825AB253EFA9 /* libPods-SGOtherLoginAndShare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SGOtherLoginAndShare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55A4EF074C3115AF731026F /* Pods-SGOtherLoginAndShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGOtherLoginAndShare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SGOtherLoginAndShare/Pods-SGOtherLoginAndShare.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A355C4C212D18BF000E94B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE4E521F72D1B9122E26BBF /* libPods-SGOtherLoginAndShare.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		535AD18FF51B362DAE578F7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDDD578220C4825AB253EFA9 /* libPods-SGOtherLoginAndShare.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A355C46212D18BE000E94B8 = {
+			isa = PBXGroup;
+			children = (
+				5A355C51212D18BF000E94B8 /* SGOtherLoginAndShare */,
+				5A355C50212D18BF000E94B8 /* Products */,
+				6FBF595ABB4D1EA34B753BAF /* Pods */,
+				535AD18FF51B362DAE578F7E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5A355C50212D18BF000E94B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A355C4F212D18BF000E94B8 /* SGOtherLoginAndShare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A355C51212D18BF000E94B8 /* SGOtherLoginAndShare */ = {
+			isa = PBXGroup;
+			children = (
+				5A355C52212D18BF000E94B8 /* AppDelegate.h */,
+				5A355C53212D18BF000E94B8 /* AppDelegate.m */,
+				5A355C55212D18BF000E94B8 /* ViewController.h */,
+				5A355C56212D18BF000E94B8 /* ViewController.m */,
+				5A355C58212D18BF000E94B8 /* Main.storyboard */,
+				5A355C5B212D18C0000E94B8 /* Assets.xcassets */,
+				5A355C5D212D18C0000E94B8 /* LaunchScreen.storyboard */,
+				5A355C60212D18C1000E94B8 /* Info.plist */,
+				5A355C61212D18C1000E94B8 /* main.m */,
+			);
+			path = SGOtherLoginAndShare;
+			sourceTree = "<group>";
+		};
+		6FBF595ABB4D1EA34B753BAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F55A4EF074C3115AF731026F /* Pods-SGOtherLoginAndShare.debug.xcconfig */,
+				D9A6871A55B2729470496DCB /* Pods-SGOtherLoginAndShare.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A355C4E212D18BF000E94B8 /* SGOtherLoginAndShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A355C65212D18C1000E94B8 /* Build configuration list for PBXNativeTarget "SGOtherLoginAndShare" */;
+			buildPhases = (
+				37A713C3ED2C6A523EFC3C7A /* [CP] Check Pods Manifest.lock */,
+				5A355C4B212D18BF000E94B8 /* Sources */,
+				5A355C4C212D18BF000E94B8 /* Frameworks */,
+				5A355C4D212D18BF000E94B8 /* Resources */,
+				EB29F074A9D740BAE0EAEC6E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGOtherLoginAndShare;
+			productName = SGOtherLoginAndShare;
+			productReference = 5A355C4F212D18BF000E94B8 /* SGOtherLoginAndShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A355C47212D18BE000E94B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					5A355C4E212D18BF000E94B8 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 5A355C4A212D18BE000E94B8 /* Build configuration list for PBXProject "SGOtherLoginAndShare" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A355C46212D18BE000E94B8;
+			productRefGroup = 5A355C50212D18BF000E94B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A355C4E212D18BF000E94B8 /* SGOtherLoginAndShare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A355C4D212D18BF000E94B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A355C5F212D18C0000E94B8 /* LaunchScreen.storyboard in Resources */,
+				5A355C5C212D18C0000E94B8 /* Assets.xcassets in Resources */,
+				5A355C5A212D18BF000E94B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37A713C3ED2C6A523EFC3C7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SGOtherLoginAndShare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB29F074A9D740BAE0EAEC6E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SGOtherLoginAndShare/Pods-SGOtherLoginAndShare-resources.sh",
+				"${PODS_ROOT}/mob_sharesdk/SDK/ShareSDK/Support/Required/ShareSDK.bundle",
+				"${PODS_ROOT}/mob_sharesdk/SDK/ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WeiboSDK.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShareSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SGOtherLoginAndShare/Pods-SGOtherLoginAndShare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A355C4B212D18BF000E94B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A355C57212D18BF000E94B8 /* ViewController.m in Sources */,
+				5A355C62212D18C1000E94B8 /* main.m in Sources */,
+				5A355C54212D18BF000E94B8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5A355C58212D18BF000E94B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A355C59212D18BF000E94B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A355C5D212D18C0000E94B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A355C5E212D18C0000E94B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A355C63212D18C1000E94B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A355C64212D18C1000E94B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A355C66212D18C1000E94B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F55A4EF074C3115AF731026F /* Pods-SGOtherLoginAndShare.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4HTB89L34;
+				INFOPLIST_FILE = SGOtherLoginAndShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.suanqiula.demo.SGOtherLoginAndShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A355C67212D18C1000E94B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9A6871A55B2729470496DCB /* Pods-SGOtherLoginAndShare.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X4HTB89L34;
+				INFOPLIST_FILE = SGOtherLoginAndShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.suanqiula.demo.SGOtherLoginAndShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A355C4A212D18BE000E94B8 /* Build configuration list for PBXProject "SGOtherLoginAndShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A355C63212D18C1000E94B8 /* Debug */,
+				5A355C64212D18C1000E94B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A355C65212D18C1000E94B8 /* Build configuration list for PBXNativeTarget "SGOtherLoginAndShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A355C66212D18C1000E94B8 /* Debug */,
+				5A355C67212D18C1000E94B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A355C47212D18BE000E94B8 /* Project object */;
+}
